@@ -1,0 +1,320 @@
+
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-color: #EEC170;
+}
+
+/* Put your CSS Styles Below this Line */
+
+h1 {
+	font-family: Alegreya Sans SC;
+	font-size: 72px;
+	color: #772F1A;
+	text-decoration: underline;
+	justify-content: center;
+	text-align: center;
+}
+
+h2 {
+	font-family: Alegreya Sans SC;
+	font-size: 60px;
+	color: #772F1A;
+}
+
+h3 {
+	font-family: Roboto Slab;
+	font-size: 36px;
+	color: #585123;
+	text-decoration: underline;
+}
+
+h4 {
+	font-family: Alegreya Sans SC;
+	text-size: 46px;
+	font-weight: 400;
+	color: #585123;
+}
+
+
+h6 {
+	font-size: 11px;
+	color: #585123;
+	font-family: Alegreya Sans SC;
+	font-style: italic;
+	font-weight: 500;
+}
+
+p {
+	font-family: Roboto Slab;
+	font-size: 27px;
+	font-weight: 400;
+	color: #585123;
+}
+
+nav{
+	font-size: 34px;
+	font-family: Alegreya Sans SC;
+	font-weight: 300;
+	background-color: #772F1A;
+	color: #EEC170;
+	text-align: center;
+	width:  30%;
+	height: 50%;
+}
+
+nav ul {
+	padding:  0;
+	margin: 0;
+	list-style-type: none;
+}
+nav a {
+	color: #EEC170;
+	text-decoration: #EEC170;
+	text-align: center;
+}
+.headerpic {
+	width: 80%;
+}
+
+header {
+	display: flex;
+}
+
+s{
+	width: 80%;
+}
+
+.awards p{
+	font-size: 36px;
+	font-family: Alegreya Sans SC;
+	font-weight: 700;
+}
+
+.awards{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.rewards-text{
+	background-color: #F2A65A;
+	border: #F58549 10px solid;
+	display: flex;
+	justify-content: space-around;
+}
+
+.awards img{
+	width: 100%;
+}
+
+.specials-about {
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+.specials-about .fall-specials {
+	width:  20%;
+	text-align: left;
+}
+
+.specials-about .products {
+	width:  27%;
+	height: 27%;
+	align-self: flex-end;
+}
+
+.specials-about .about-us {
+	width:  20%;
+	text-align: left;
+}
+
+.location {
+	background-color: #F2A65A;
+	display: flex;
+	flex-wrap:  wrap;
+	border: 10px solid #F58549;
+	margin-top: 70px;
+}
+
+.location h1 {
+	width:  100%;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 25px;
+}
+
+.contact-info{
+	color: #585123;
+	font-family: Roboto Slab;
+	font-size: 27px;
+	]]
+	font-weight: 400;
+	list-style-type: none;
+}
+
+.schedule {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.days{
+	width: 45%;
+
+}
+
+.days ul{
+	list-style-type: none;
+	font-family: Roboto Slab;
+	font-size: 27px;
+	font-weight: 400;
+	color: #585123;
+}
+
+
+.cross{
+	align-items: center;
+}
+
+.food-list{
+	font-family: Roboto Slab;
+	font-size: 27px;
+	font-weight: 400;
+	color: #585123;
+	list-style-type: square;
+	padding:  0;
+}
+
+.menu-section{
+	text-decoration: none;
+}
+
+.basics{
+	font-family: Alegreya Sans SC;
+	font-size: 27px;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	justify-content: space-between;
+	width: 70%;
+	padding-left: 15%;
+}
+
+.iced-coffee-items{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 5%;
+}
+
+.bites-items{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 5%;
+}
+
+.dash{
+	padding-left: 15%%;
+}
+
+.foodpic{
+	width: 40%;
+	align-content: flex-end;
+	padding-left: 30%;
+}
+
+.food-info ul{
+	text-align: left;
+	font-size: 20px;
+	width: 40%;
+	justify-content: center;
+	font-weight: 200;
+	padding-left: 40%;
+	font-family: Roboto Slab;
+	color: #585123;
+	list-style-type: none;
+
+}
+
+.food-info h3{
+	font-family: Alegreya Sans SC;
+	color: #772F1A;
+	text-decoration: none;
+	font-size: 32px;
+	text-align: center;
+}
+
+.email-signup{
+	width: 40%;
+}
+
+.email-wrap{
+	display: flex;
+	align-content: flex-end;
+	padding-left: 30%;
+	padding-right: 10%;
+}
+
+input{
+	width: 50%;
+	padding: 10px;
+	background-color: #f6f3ee;
+	border-left: 3px solid #735e59;
+	border-right: 3px solid #735e59;
+	border-top: 3px solid #735e59;
+	border-right: none;
+	color: 544541;
+}
+
+button{
+	background: transparent;
+	border: 3px solid #735e59;
+	padding: 10px;
+	width: 25%;
+	color: #544541;
+}
+
+.job-info{
+	padding-bottom: 75px;
+	padding-right: 10%;
+	padding-left: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10%;
+}
+
+.job-info h2{
+	text-align: center;
+}
+
+.job-info img{
+	width: 50%;
+}
+
+.job-info p{
+	text-align: center;
+	font-size: 27px;
+	width: 100%;
+}
+
+footer {
+	display: flex;
+	padding-top: 10%;
+}
+
+footer h4{
+	padding-left: 5%;
+}
+
+footer h6{
+	padding-left: 10%;
+	padding-top: 1%;
+}
